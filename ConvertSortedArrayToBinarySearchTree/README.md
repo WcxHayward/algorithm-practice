@@ -20,6 +20,22 @@
 解释：[1,null,3] 和 [3,1] 都是高度平衡二叉搜索树。
 ```
 
+```js
+var sortedArrayToBST = function (nums) {
+  return helper(nums, 0, nums.length - 1)
+};
+var helper = function (nums, left, right) {
+  if (left > right) {
+    return null
+  }
+  let mid = Math.round((left + right) / 2)
+  let root = new TreeNode(nums[mid])
+  root.left = helper(nums, left, mid - 1)
+  root.right = helper(nums, mid + 1, right)
+  return root
+}
+```
+
 来源：力扣（LeetCode）
 链接：<https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree>
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
