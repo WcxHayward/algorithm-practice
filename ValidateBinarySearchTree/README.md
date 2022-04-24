@@ -23,6 +23,18 @@
 解释：根节点的值是 5 ，但是右子节点的值是 4 。
 ```
 
+```js
+var isValidBST = function (root) {
+  return isValid(root, -Infinity, Infinity)
+};
+var isValid = function (root, min, max) {
+  if (!root) return true
+  if (min !== null && root.val <= min) return false
+  if (max !== null && root.val >= max) return false
+  return isValid(root.left, min, root.val) && isValid(root.right, root.val, max)
+}
+```
+
 来源：力扣（LeetCode）
 链接：<https://leetcode-cn.com/problems/validate-binary-search-tree>
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
