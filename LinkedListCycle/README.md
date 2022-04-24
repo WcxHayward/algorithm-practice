@@ -38,6 +38,20 @@
 pos 为 -1 或者链表中的一个 有效索引 。
 ```
 
+```js
+var hasCycle = function (head) {
+  let fast = head, slow = head
+  while (fast && slow && fast.next) {
+    fast = fast.next.next
+    slow = slow.next
+    if (Object.is(fast, slow)) {
+      return true
+    }
+  }
+  return false
+};
+```
+
 来源：力扣（LeetCode）
 链接：<https://leetcode-cn.com/problems/linked-list-cycle>
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
