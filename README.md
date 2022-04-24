@@ -5,3 +5,4 @@
 3. [环形链表](/LinkedListCycle)
 4. [反转链表](/ReverseLinkedList)
 5. [验证二叉搜索树](/ValidateBinarySearchTree)
+6. [将有序数组转换为二叉搜索树](/ConvertSortedArrayToBinarySearchTree)
