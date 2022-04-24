@@ -22,6 +22,35 @@
 输出：[]
 ```
 
+```js
+var threeSum = function (nums) {
+  nums = nums.sort((a, b) => a - b)
+  let res = []
+  for (let i = 0; i < nums.length - 2; i++) {
+    if (i > 0 && nums[i] === nums[i - 1]) continue
+    let left = i + 1, right = nums.length - 1
+    while (left < right) {
+      let s = nums[i] + nums[left] + nums[right]
+      if (s < 0) left += 1
+      else if (s > 0) right -= 1
+      else {
+        res.push([nums[i], nums[left], nums[right]])
+        while (left < right && nums[left] === nums[left + 1]) {
+          left += 1
+        }
+        while (left < right && nums[right] === nums[right - 1]) {
+          right -= 1
+        }
+        left += 1
+        right -= 1
+      }
+    }
+
+  }
+  return res
+};
+```
+
 来源：力扣（LeetCode）
 链接：<https://leetcode-cn.com/problems/3sum>
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
