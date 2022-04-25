@@ -7,3 +7,4 @@
 5. [验证二叉搜索树](/ValidateBinarySearchTree)
 6. [将有序数组转换为二叉搜索树](/ConvertSortedArrayToBinarySearchTree)
 7. [有效的括号](/ValidParentheses)
+8. [排序数组](/SortAnArray)
