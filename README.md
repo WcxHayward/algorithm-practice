@@ -8,3 +8,4 @@
 6. [将有序数组转换为二叉搜索树](/ConvertSortedArrayToBinarySearchTree)
 7. [有效的括号](/ValidParentheses)
 8. [排序数组](/SortAnArray)
+9. [重复数组中的数字](/DuplicateNumberInArray)
