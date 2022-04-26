@@ -28,7 +28,7 @@ var quickSort = function (nums, start, end) {
     while (left <= right && nums[left] < mid) {
       left++
     }
-    while (left < right && nums[right] > mid) { right-- }
+    while (left <= right && nums[right] > mid) { right-- }
     if (left <= right) {
       [nums[left], nums[right]] = [nums[right], nums[left]]
       left++
