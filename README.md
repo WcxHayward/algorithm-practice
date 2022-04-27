@@ -12,3 +12,4 @@
 10. [二叉树的最近公共祖先](/LowestCommonAncestorOfABinaryTree)
 11. [二叉搜索树的最近公共祖先](/LowestCommonAncestorOfABinarySearchTree)
 12. [斐波那契数](/FibonacciNumber)
+13. [多数元素](/MajorityElement)
