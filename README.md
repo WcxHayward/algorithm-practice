@@ -14,3 +14,5 @@
 * [斐波那契数](/FibonacciNumber)
 * [多数元素](/MajorityElement)
 * [相同的树](/SameTree)
+* [二叉树的层序遍历](/BinaryTreeLevelOrderTraversal)
+* [二叉树的最大深度](/MaximumDepthOfBinaryTree)
