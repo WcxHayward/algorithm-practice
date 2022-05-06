@@ -18,3 +18,4 @@
 * [二叉树的最大深度](/MaximumDepthOfBinaryTree)
 * [有序数组的平方](/SquaresOfASortedArray)
 * [轮转数组](/RotateArray)
+* [移动零](/MoveZeroes)
