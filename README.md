@@ -19,3 +19,4 @@
 * [有序数组的平方](/SquaresOfASortedArray)
 * [轮转数组](/RotateArray)
 * [移动零](/MoveZeroes)
+* [两数之和 II - 输入有序数组](/TwoSum2InputArrayIsSorted)
