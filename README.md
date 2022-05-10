@@ -20,3 +20,5 @@
 * [轮转数组](/RotateArray)
 * [移动零](/MoveZeroes)
 * [两数之和 II - 输入有序数组](/TwoSum2InputArrayIsSorted)
+* [反转字符串](/ReverseString)
+* [反转字符串中的单词 III](/ReverseWordsInAStringIII)
